@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    padding: 0; 
+    margin: 0; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+}   
+main { 
+    width: 100%;
+    padding: 0;  
+
+}
+header { 
+    width: 100%;
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    background-color: #C93636; 
+    color: #fff;
+    position: fixed;
+} 
+#logo {
+    display: flex; 
+    text-align:  center;
+    padding-left: 30px;
+    width: 20%; 
+
+} 
+nav {
+    width: 80%;
+
+}
+ul {
+    padding: 0;
+    padding-left: 30%; 
+    margin: 0; 
+    text-decoration: none; 
+    display: flex; 
+    text-align: center;
+} 
+li { 
+    padding-top: 25px;
+    margin-left: 10%;
+}
+li, a {
+    text-decoration: none; 
+    list-style: none; 
+    color: #fff;
+    text-align: center;
+} 
+#main, #fetures, #work, #contact {
+    display:  flex; 
+    flex-direction: column;  
+    height: 100vh;
+} 
+#main {
+    background-color: #1B1B32; 
+    color: #fff; 
+
+} 
+#main h2 { 
+    margin: 0;
+    padding: 0;
+    padding-left: 200px; 
+    padding-top: 200px;
+    font-size: 2rem;
+} 
+#main h1 { 
+    margin: 20px 0;
+    padding: 0;
+    padding-left: 300px;
+    font-size: 2.5rem;
+} 
+#main p { 
+    margin: 40px 0;
+    text-align: center;
+    padding: 0;
+    font-size: 1rem;
+} 
+#main button , #contact button {
+    text-align: center; 
+    width: 20%; 
+    background-color: #C93636; 
+    color: #fff; 
+    padding: 20px;
+    border-style: none; 
+    margin: 5% 40%;
+    font-weight: 900;
+}  
+#fetures div {
+    display: flex; 
+    width: 100%; 
+} 
+#fetures p, #fetures img { 
+    margin-top: 5%;
+    padding: 1% 4%;
+    font-weight: 400;
+} 
+#fetures img {
+    margin-left: 10%;
+} 
+#work iframe {
+    margin: 0 30%;
+}
+#work {
+    background-color: #1B1B32; 
+    color: #fff; 
+
+} 
+#contact h1, #work h1 {
+    margin-left: 10%;
+}
+#contact {
+    height: 80vh;
+} 
+footer {
+    margin: 0; 
+    padding: 20px;
+    text-align: center; 
+    background-color:#1B1B32;
+    color:#C93636;
+} 
+@media screen and (max-width: 1024px)  
+{ 
+    body, header, main, section {
+        padding: 0;
+        margin: 0; 
+        display: flex; 
+        flex-direction: column; 
+        width: 100%; 
+        height: auto; 
+        font-size: 1rem;
+    }
+    #main h2 { 
+        margin-top: 160px;
+        margin-bottom: 50px;
+        padding: 0;
+        padding-left: 10px; 
+        padding-top: 50px;
+        font-size: 1rem;
+    } 
+    #main h1 { 
+        margin:  20px;
+        padding: 0;
+        padding-left: 30px;
+        font-size: 1.2rem;
+    } 
+    #main p { 
+        margin: 10px;
+        text-align: center;
+        padding: 0;
+        font-size: 0.8rem;
+    } 
+    #main button , #contact button {
+        text-align: center; 
+        width: 50%; 
+        background-color: #C93636; 
+        color: #fff; 
+        padding: 20px;
+        border-style: none; 
+        font-weight: 400;
+        font-size: 0.9rem;
+        margin-right: 0;
+    }  
+    iframe {
+        margin: 0;
+        padding: 0;
+        height: 50%; 
+        width: 60%;
+    }
+}
